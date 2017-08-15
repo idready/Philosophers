@@ -1,4 +1,4 @@
-# Angular2 Project test
+# Angular2 Test project
 
 This project is a fork from: [Angular-Seed](https://github.com/mgechev/angular-seed)
 
