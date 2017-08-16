@@ -13,11 +13,32 @@ export class ProjectConfig extends SeedConfig {
 
   constructor() {
     super();
-    // this.APP_TITLE = 'Put name of your app here';
+    this.APP_TITLE = 'Philosophers';
+
     // this.GOOGLE_ANALYTICS_ID = 'Your site's ID';
 
     /* Enable typeless compiler runs (faster) between typed compiler runs. */
     // this.TYPED_COMPILE_INTERVAL = 5;
+
+      /**
+   * The flag for the debug option of the application.
+   * The default value is `false`, which can be overriden by the `--debug` flag when running `npm start`.
+   * @type {boolean}
+   */
+   this.DEBUG = true;
+
+   /**
+   * Enable SCSS stylesheet compilation.
+   * Set ENABLE_SCSS environment variable to 'true' or '1'
+   * @type {boolean}
+   */
+    this.ENABLE_SCSS = true;
+
+    /**
+   * The required NodeJS version to run the application.
+   * @type {string}
+   */
+    this.VERSION_NODE = '7.0.0';
 
     // Add `NPM` third-party libraries to be injected/bundled.
     this.NPM_DEPENDENCIES = [
