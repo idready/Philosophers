@@ -52,7 +52,6 @@ tmp
 
 gulpfile.js
 gulpfile.js.map
-yarn.lock
 
 # OS X trash files
 .DS_Store
